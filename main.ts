@@ -1,1 +1,3 @@
-document.body.append("This line came from TypeScript.");
+document.querySelector("button")?.addEventListener("click", () => {
+  document.body.append(" Clicked!");
+});
